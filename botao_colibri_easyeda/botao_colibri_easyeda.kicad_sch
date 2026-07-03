@@ -1,0 +1,12 @@
+(kicad_sch
+  (version 20230121)
+  (uuid "00000000-0000-0000-0000-000000000000")
+  (paper "A4")
+  (title_block
+    (title "Botao Colibri - Button Device V0.1")
+    (date "2026-07-03")
+    (rev "1.0")
+  )
+  (symbol_instances
+  )
+)

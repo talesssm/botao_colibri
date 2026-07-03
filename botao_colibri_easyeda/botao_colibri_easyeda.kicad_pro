@@ -1,0 +1,13 @@
+(kicad_project
+  (project_name "botao_colibri_easyeda")
+  (title "Botao Colibri - Button Device V0.1")
+  (version 1)
+  (created_date "2026-07-03 15:50:00")
+  (updated_date "2026-07-03 15:50:00")
+  (settings
+    (layers
+      (0 "F.Cu" signal)
+      (31 "B.Cu" signal)
+    )
+  )
+)
