@@ -3338,6 +3338,12 @@
 		(uuid "753843a1-0a5a-4a1f-9065-a52093355378")
 	)
 	(junction
+		(at 184.15 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "798b16a9-4e43-4a28-b7be-30475ec73f26")
+	)
+	(junction
 		(at 194.31 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3348,12 +3354,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "907b5192-4a42-4596-a021-80cf0a321192")
-	)
-	(junction
-		(at 184.15 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99702c6d-3182-4938-9d3d-83d93d3670fe")
 	)
 	(junction
 		(at 129.54 38.1)
@@ -3372,6 +3372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca7d9d13-16a9-4feb-91e9-651c5020048c")
+	)
+	(junction
+		(at 226.06 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e26adde7-e2b9-4a91-a99d-c3faca50c823")
 	)
 	(junction
 		(at 161.29 80.01)
@@ -4682,7 +4688,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 191.77 103.632 0)
+			(at 188.976 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9021,6 +9027,85 @@
 			(project "colibri_pcb_qfn"
 				(path "/e8a5d668-2ab0-4e4a-af8f-1266e6d31156"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb01996f-334f-4467-b6be-02e8c2478439")
+		(property "Reference" "GND1"
+			(at 231.648 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 119.888 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 220.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1bd8aaa-0b92-4e75-aef9-830a485f318e")
+		)
+		(instances
+			(project "colibri_pcb_qfn"
+				(path "/e8a5d668-2ab0-4e4a-af8f-1266e6d31156"
+					(reference "GND1")
 					(unit 1)
 				)
 			)

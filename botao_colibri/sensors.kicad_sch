@@ -1979,16 +1979,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 50.8) (xy 115.57 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0672f125-c521-4f27-89b6-a5ac4dc70c0a")
-	)
-	(wire
-		(pts
 			(xy 54.61 132.08) (xy 48.26 132.08)
 		)
 		(stroke
@@ -1999,7 +1989,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 102.87 50.8)
+			(xy 116.84 50.8) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2407594b-15eb-405a-ba6c-c0e794a7bf59")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2137,6 +2137,16 @@
 		)
 		(uuid "d7ded6f4-8dd3-4ce7-82a4-0862fec74c8b")
 	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff595392-48c0-435e-88f2-d58715c79f65")
+	)
 	(global_label "LED_G"
 		(shape input)
 		(at 80.01 132.08 0)
@@ -2258,84 +2268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31606c00-d5a7-443b-a173-c4fe76b234ea")
-		(property "Reference" "#PWR03"
-			(at 115.57 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8313a70f-5110-43a7-9871-4936f29a8360")
-		)
-		(instances
-			(project "colibri_pcb_qfn"
-				(path "/54ab9dfb-c4c2-4dcc-993f-363418ec4c96"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "botao_colibri:PJ-307C")
 		(at 119.38 73.66 180)
 		(unit 1)
@@ -2434,6 +2366,84 @@
 			(project "colibri_pcb_qfn"
 				(path "/54ab9dfb-c4c2-4dcc-993f-363418ec4c96"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7324f59c-1cfd-4354-bc0b-01b5ce7edb5a")
+		(property "Reference" "#PWR03"
+			(at 120.65 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7514510-46f4-44a7-a1f7-8d9e939ff987")
+		)
+		(instances
+			(project "colibri_pcb_qfn"
+				(path "/54ab9dfb-c4c2-4dcc-993f-363418ec4c96"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2943,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 110.49 50.8 0)
+		(at 111.76 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2944,7 +2954,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbb032c8-5631-4e1d-a567-4d1518e4531a")
 		(property "Reference" "sw_principal1"
-			(at 110.49 43.18 0)
+			(at 111.76 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2954,7 +2964,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 110.49 45.72 0)
+			(at 111.76 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +2974,7 @@
 			)
 		)
 		(property "Footprint" "botao_colibri:sw_principal"
-			(at 110.49 45.72 0)
+			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +2985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 45.72 0)
+			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,7 +2996,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 110.49 50.8 0)
+			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

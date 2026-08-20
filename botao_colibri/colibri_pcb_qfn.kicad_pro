@@ -40,7 +40,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.0,
+          "height": 1.5,
           "width": 1.5
         },
         "silk_line_width": 0.1,
@@ -683,7 +683,7 @@
         "uuid": "54ab9dfb-c4c2-4dcc-993f-363418ec4c96"
       }
     ],
-    "used_designators": "sw_principal1,SW2,#PWR2-3,#PWR6,#PWR10-13,#PWR17,#PWR20,J4-7,FL1,C4-7,VDD_TP1",
+    "used_designators": "VBATT_TP2,sw_principal1,SW2,GND1,#PWR2-3,#PWR6,#PWR10-13,#PWR17,#PWR20,J4-7,FL1,C4-7,VDD_TP1",
     "variants": []
   },
   "sheets": [

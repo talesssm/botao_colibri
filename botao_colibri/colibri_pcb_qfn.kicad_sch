@@ -2173,16 +2173,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 55.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541d56f3-40fc-4e4f-8364-7118c84a70de")
-	)
-	(wire
-		(pts
 			(xy 119.38 95.25) (xy 127 95.25)
 		)
 		(stroke
@@ -2475,7 +2465,7 @@
 			)
 		)
 	)
-	(global_label "P2.02"
+	(global_label "P1.08"
 		(shape input)
 		(at 52.07 106.68 0)
 		(fields_autoplaced yes)
@@ -2595,9 +2585,9 @@
 			)
 		)
 	)
-	(global_label "P1.07"
+	(global_label "P2.01"
 		(shape input)
-		(at 52.07 90.17 0)
+		(at 52.07 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2607,7 +2597,7 @@
 		)
 		(uuid "19f2b5b3-85e6-4227-afc7-eac6de4bc956")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 90.17 0)
+			(at 60.5585 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2753,7 @@
 			)
 		)
 	)
-	(global_label "P2.03"
+	(global_label "P1.07"
 		(shape input)
 		(at 52.07 104.14 0)
 		(fields_autoplaced yes)
@@ -2883,9 +2873,9 @@
 			)
 		)
 	)
-	(global_label "P1.02"
+	(global_label "P2.03"
 		(shape input)
-		(at 52.07 87.63 0)
+		(at 52.07 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2895,7 +2885,7 @@
 		)
 		(uuid "5ce3b3c4-bcfb-4ee9-af59-0511a2cba290")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 87.63 0)
+			(at 60.5585 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2979,7 +2969,7 @@
 			)
 		)
 	)
-	(global_label "P2.01"
+	(global_label "P2.00"
 		(shape input)
 		(at 52.07 109.22 0)
 		(fields_autoplaced yes)
@@ -3016,30 +3006,6 @@
 		(uuid "795c5020-6d0e-4eb6-955a-b4ede9e43642")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.8108 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P2.10"
-		(shape input)
-		(at 52.07 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7dc6106f-8440-49b2-b81e-7779762f186c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3123,9 +3089,9 @@
 			)
 		)
 	)
-	(global_label "P1.10"
+	(global_label "P2.08"
 		(shape input)
-		(at 52.07 80.01 0)
+		(at 52.07 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3135,7 +3101,7 @@
 		)
 		(uuid "84e5af90-c069-46f3-917e-255321753759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 80.01 0)
+			(at 60.5585 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3195,7 +3161,7 @@
 			)
 		)
 	)
-	(global_label "P0.04"
+	(global_label "P1.09"
 		(shape input)
 		(at 52.07 114.3 0)
 		(fields_autoplaced yes)
@@ -3232,6 +3198,30 @@
 		(uuid "944683aa-49fb-467e-bfea-4ab6bd69cb75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.2385 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "P2.06"
+		(shape input)
+		(at 52.07 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b719482-e285-44fa-b605-092af86c07d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.5585 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3291,7 +3281,7 @@
 			)
 		)
 	)
-	(global_label "P2.00"
+	(global_label "P1.10"
 		(shape input)
 		(at 52.07 111.76 0)
 		(fields_autoplaced yes)
@@ -3315,7 +3305,7 @@
 			)
 		)
 	)
-	(global_label "P0.00"
+	(global_label "P1.02"
 		(shape input)
 		(at 52.07 116.84 0)
 		(fields_autoplaced yes)
@@ -3363,30 +3353,6 @@
 			)
 		)
 	)
-	(global_label "P2.08"
-		(shape input)
-		(at 52.07 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3f94449-e885-4c9e-8863-756f791d58cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "NPM1300_EN"
 		(shape input)
 		(at 158.75 114.3 0)
@@ -3400,30 +3366,6 @@
 		(uuid "b7c414c6-4568-4327-9dfb-fb63770c465d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.0722 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P2.05"
-		(shape input)
-		(at 52.07 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8c23588-18df-49b0-a38b-7638a751a2a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,30 +3473,6 @@
 			)
 		)
 	)
-	(global_label "P2.09"
-		(shape input)
-		(at 52.07 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc95b95f-8c21-4a15-862d-69c4107fe177")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 231.14 88.9 0)
@@ -3579,9 +3497,9 @@
 			)
 		)
 	)
-	(global_label "P1.09"
+	(global_label "P2.05"
 		(shape input)
-		(at 52.07 82.55 0)
+		(at 52.07 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3591,7 +3509,7 @@
 		)
 		(uuid "e44c4550-85cb-47c0-b354-b736ab1790be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 82.55 0)
+			(at 60.5585 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,9 +3521,9 @@
 			)
 		)
 	)
-	(global_label "P1.08"
+	(global_label "P2.02"
 		(shape input)
-		(at 52.07 85.09 0)
+		(at 52.07 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3615,7 +3533,7 @@
 		)
 		(uuid "e5c2f68b-9ec1-47ac-9c66-c9d8cef0c839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 85.09 0)
+			(at 60.5585 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,54 +3614,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "P2.06"
-		(shape input)
-		(at 52.07 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd57a7ee-bd45-40c4-80fa-61b29bde862e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P2.07"
-		(shape input)
-		(at 52.07 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ffb0d1c7-58b7-4cfc-a4ec-361623a3ebbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.5585 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4268,98 +4138,6 @@
 			(project "colibri_pcb_qfn"
 				(path "/f16c59a5-df24-4379-9ca7-7bf39c536490"
 					(reference "I2C_SCL_TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 46.99 137.16 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63774bde-2f96-4db0-bb3d-3b473a6dc783")
-		(property "Reference" "J7"
-			(at 46.99 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 46.99 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 46.99 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ee52f9d-1cf8-4a67-b69c-ca1b57d27af9")
-		)
-		(pin "1"
-			(uuid "9bbf8676-293b-4a4a-a7a4-89e094594c49")
-		)
-		(pin "6"
-			(uuid "1cd622ac-5fd5-4403-a37b-471b144a3af9")
-		)
-		(pin "4"
-			(uuid "82a46ae2-ccbf-4125-b09f-aec3834eacd4")
-		)
-		(pin "3"
-			(uuid "7aece0a8-0fdc-4ba3-9ee3-531c76add836")
-		)
-		(pin "5"
-			(uuid "d77eb52d-d6d4-4958-abcc-9257350b4741")
-		)
-		(instances
-			(project "colibri_pcb_qfn"
-				(path "/f16c59a5-df24-4379-9ca7-7bf39c536490"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5033,84 +4811,6 @@
 			(project "colibri_pcb_qfn"
 				(path "/f16c59a5-df24-4379-9ca7-7bf39c536490"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6a0798a-c47f-4980-8096-90451501a290")
-		(property "Reference" "#PWR06"
-			(at 55.88 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed0a85e0-4714-4eee-b404-6cb053fd5db7")
-		)
-		(instances
-			(project "colibri_pcb_qfn"
-				(path "/f16c59a5-df24-4379-9ca7-7bf39c536490"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
